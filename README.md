@@ -1,4 +1,4 @@
-# Adding Anchore container image scans to your Codefresh pipelines
+# Adding Anchore container image scanning to your Codefresh pipelines
 
 ## Anchore and Continous Integration
 
