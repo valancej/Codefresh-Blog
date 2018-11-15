@@ -1,6 +1,6 @@
 # Adding Anchore container image scanning to your Codefresh pipelines
 
-## Anchore and Continous Integration
+## Background
 
 Docker images themselves are commonly built with a continous integration tool like Codefresh. As with any CI pipeline building an artifact, it becomes important to employ the proper security testing tools to ensure a higher lever a confidence when deploying. 
 
