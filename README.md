@@ -90,4 +90,6 @@ push_image:
 
 By following along with the example above, we can see how simply Anchore scanning can be configured and added to a Codefresh pipeline line in order to immediately bolster the security of the built container images. 
 
-As a reminder, we advise having separate Docker registries for images that are being scanned with Anchore, and images that have passed an Anchore scan. For example, a registry for dev/test images, and a registry to certified, trusted, production-ready images. 
+As a tip, we recommend adjusting the policy bundles and evaluation to align with your current organizations security and compliance requirements. 
+
+Additionally, we advise having separate Docker registries for images that are being scanned with Anchore, and images that have passed an Anchore scan. For example, a registry for dev/test images, and a registry to certified, trusted, production-ready images. 
